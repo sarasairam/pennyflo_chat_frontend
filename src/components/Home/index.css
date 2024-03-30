@@ -1,0 +1,132 @@
+.main-container{
+    background-color: aquamarine;
+    height: fit-content;
+    min-height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .failure-view{
+    width: 400px;
+  }
+  .main-container-loader{
+    background-color: aquamarine;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  .container-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 25px;
+    height:80vh;
+  }
+  .users-card{
+    list-style-type: none;
+  }
+  .user-list-item{
+    margin:15px;
+  }
+  .card-left{
+    width: 20vw;
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: auto;
+  }
+  .card-right{
+    width:50vw;
+    margin:20px;
+    overflow-y: auto;
+    display: flex;
+    border:1px solid #000000;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .messages-card-empty{
+    padding: 20px;
+    height: 75vh;
+    border-radius: 10px;
+    overflow-y: auto;
+  }
+  .messages-card{
+    padding: 20px;
+    height: 75vh;
+    border-radius: 10px;
+    overflow-y: auto;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .input-message{
+    width:50%;
+  }
+  .main-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:100vw;
+  }
+  .main-heading{
+    text-align: center;
+    font-size: 30px;
+  }
+  .input-card{
+    border:1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .list-message{
+    list-style-type: none;
+  }
+  .username-para{
+    font-size: 15px;
+    padding-left: 10px;
+    font-weight: 600;
+  }
+  @media screen and (max-width:768px){
+    .main-heading{
+      font-size: 18px;
+      padding: 10px;
+    }
+    .container-home{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: fit-content;
+    }
+    .card-left{
+      width: 80vw;
+      margin:20px;
+      display: flex;
+      flex-direction: row;
+      height: 40vh;
+      overflow-x: auto;
+    }
+    .users-card{
+      display: flex;
+      flex-direction: row;
+    }
+    .user-list-item{
+      margin:1px;
+    }
+    .card-right{
+      width:80vw;
+      height: 50vh;
+    }
+  }
